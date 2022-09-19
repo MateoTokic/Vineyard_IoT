@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "123597606622",
+    "project_id": "vineyard-iot",
+    "storage_bucket": "vineyard-iot.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:123597606622:android:207d780d98826372a2fc4f",
+        "android_client_info": {
+          "package_name": "com.example.vineyard_iot"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "123597606622-5br8i7m8n1cep313pkdvdbavu9sr5ocf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCqBJSETHcy7lCiuTalyoqHlmZYNzuU47k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "123597606622-5br8i7m8n1cep313pkdvdbavu9sr5ocf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

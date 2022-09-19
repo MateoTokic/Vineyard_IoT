@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".NotesActivity"
+    android:background="@color/background">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvNotes"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </androidx.recyclerview.widget.RecyclerView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/rvNotes"
+        android:layout_marginBottom="10dp">
+
+        <Button
+            android:id="@+id/deleteNote"
+            android:layout_width="75dp"
+            android:layout_height="wrap_content"
+            android:text="Delete"
+            android:textColor="@color/white"
+            android:background="@drawable/btn_background"
+            android:layout_marginLeft="3dp"/>
+
+        <EditText
+            android:id="@+id/inputNote"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:ems="11"
+            android:layout_marginLeft="3dp"
+            android:hint="Parameter: Value"
+            android:paddingLeft="13dp"
+            android:background="@drawable/edt_background"
+            android:textColor="@color/text"
+            tools:layout_editor_absoluteX="100dp"
+            tools:layout_editor_absoluteY="673dp" />
+
+        <Button
+            android:id="@+id/addNote"
+            android:layout_width="75dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="3dp"
+            android:layout_marginLeft="3dp"
+            android:background="@drawable/btn_background"
+            android:text="Add"
+            android:textColor="@color/white"
+            />
+
+    </LinearLayout>
+</RelativeLayout>
